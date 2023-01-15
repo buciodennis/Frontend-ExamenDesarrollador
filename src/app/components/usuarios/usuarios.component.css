@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: 1rem 1rem;
+   
+    
+}
+
+.tabla{
+    border: 3px solid #E2E2E2;
+    border-radius: 8px;
+    margin: 0;
+    margin-left: 2rem;
+    padding: 0;
+}
+button{
+    margin-left: 2rem;
+    width: 10%;
+}
+h1{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.id{
+   
+    width: 8%;
+}
+.nombre{
+    
+    width: 30%;
+}
+.email{
+    
+    width: 35%;
+}
+

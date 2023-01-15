@@ -1,0 +1,17 @@
+*{
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.actions{
+  
+}
+label{
+    justify-content: center;
+    text-align: center;
+    width: 15%;
+}

@@ -1,0 +1,10 @@
+:host ::ng-deep .p-menubar {
+    border: 0.5px rgb(184, 184, 184);
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgb(244, 244, 244);
+    margin: 0;
+    height: 3.5rem;
+  }
+
+ 

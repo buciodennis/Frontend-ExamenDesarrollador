@@ -1,0 +1,29 @@
+
+*{
+    margin: 0.5rem;
+}
+div{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+label{
+    align-self: start;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    
+}
+.container{
+    background-color: #F7F6F4;
+    width: 30%;
+    border: 3px solid #E2E2E2;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 2rem;
+}
+input{
+    width: 100%;
+}

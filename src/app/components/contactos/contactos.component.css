@@ -1,0 +1,33 @@
+*{
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tabla{
+    border: 3px solid #E2E2E2;
+    border-radius: 8px;
+    width: 55%;
+    margin: 0;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    padding: 0;
+}
+button{
+    margin-left: 2rem;
+    width: 30%;
+    align-self: center;
+}
+h1{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.form{
+    width: 35%;
+    margin-right: 2rem;
+}

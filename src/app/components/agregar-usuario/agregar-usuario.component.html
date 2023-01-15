@@ -1,0 +1,19 @@
+<form (submit)="onSubmit()">
+    <h2>Registrar nuevo usuario</h2>
+    <div>
+        <label for="">Nombre</label>
+        <input type="text" name="id" pInputText [(ngModel)]="usuario.nombre">
+    </div>
+    <div>
+        <label for="" >Email</label>
+        <input type="text" name="title" pInputText [(ngModel)]="usuario.email">
+        <p-messages [(value)]="msgs"></p-messages>
+    </div>
+    <div>
+        <label for="" >Contraseña</label>
+        <input type="text" name="title" pInputText [(ngModel)]="usuario.contrasenia">
+    </div>
+
+    <button pButton type="submit" class="p-button-raised  p-button-success" >Agregar</button>
+
+</form>

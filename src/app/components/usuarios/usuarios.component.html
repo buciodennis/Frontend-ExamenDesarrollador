@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>Usuarios</h1>
+    <button pButton type="button" label="Agregar" class="p-button-success" (click)="cambiarVista()"></button>
+
+    
+    <div class="tabla">
+    
+        <app-lista-usuarios *ngFor="let usuario of usuarios" [usuario]="usuario" (recargarDatos)="obtenerUsuarios()" > </app-lista-usuarios>
+    </div>
+   
+</div>
+

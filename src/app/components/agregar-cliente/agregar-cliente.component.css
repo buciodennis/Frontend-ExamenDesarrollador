@@ -1,0 +1,21 @@
+*{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+div{
+    margin: 1rem;
+}
+label{
+   
+    margin-right: 10px;
+}
+h2{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+   
+}
+button{
+    align-self: center;
+    width: 10%;
+}

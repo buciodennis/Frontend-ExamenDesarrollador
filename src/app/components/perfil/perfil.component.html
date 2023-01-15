@@ -1,0 +1,37 @@
+<div> 
+    <div class="container">
+        <div>
+            <p-avatar icon="pi pi-user" shape="circle" size="xlarge"></p-avatar>
+        </div>
+        <div >
+            <h1 >{{usuario.nombre}}</h1>
+            <h3 for="">{{usuario.email}}</h3>
+        </div>
+    </div>
+
+
+    <div>
+        <h2>Agenda de actividades</h2>
+        <div class="actividades">
+            <div class="form">
+                <form (submit)="onSubmit()">
+                        <label for="">Actividad</label>
+                        <input type="text" name="id" pInputText [(ngModel)]="actividad.actividad">
+                   
+                        <label for="" >Descripcion</label>
+                        <input type="text" name="title" pInputText [(ngModel)]="actividad.descripcion">
+                    <button pButton type="submit" class="p-button-raised  p-button-success" (click)="agregar()">Agregar</button>
+                
+                </form>
+            </div>
+
+            <div class="tabla">
+                <app-lista-actividades *ngFor="let actividad of actividades" [actividad]="actividad" (recargarDatos)="obtenerActividades()" > </app-lista-actividades>
+            </div>
+        </div>
+  
+    </div>
+
+
+</div>
+

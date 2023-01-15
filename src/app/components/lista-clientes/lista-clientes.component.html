@@ -1,0 +1,17 @@
+<div class="row">
+    <label class="id">{{cliente.idClientes}}</label>
+    <label class="nombre">{{cliente.nombre}}</label>
+    <label class="email">{{cliente.email}}</label>
+    <label class="pais">{{cliente.pais}}</label>
+    <label class="estado">{{cliente.estado}}</label>
+    <label class="ciudad">{{cliente.ciudad}}</label>
+    <label class="CP">{{cliente.CP}}</label>
+    <label class="colonia">{{cliente.colonia}}</label>
+    <label class="calle">{{cliente.calle}}</label>
+    <label class="numero">{{cliente.numero}}</label>
+    <div class="actions">
+        <button pButton type="button" class="p-button-outlined p-button-rounded " label="Contactos" (click)="cambiarVistaContactos(cliente)"></button>
+        <button pButton type="button" class="p-button-outlined p-button-rounded p-button-warning" label="Editar" (click)="onEdit(cliente)"></button>
+        <button pButton type="button" class="p-button-outlined p-button-rounded p-button-danger" label="Eliminar" (click)="onDelete(cliente)"></button> 
+    </div>
+</div>

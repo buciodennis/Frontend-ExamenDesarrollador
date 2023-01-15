@@ -1,0 +1,48 @@
+<form (submit)="onSubmit()">
+    <h2>Registrar nuevo usuario</h2>
+    <div>
+        <label for="">Nombre</label>
+        <input type="text" name="nombre" pInputText [(ngModel)]="cliente.nombre">
+    </div>
+    <div>
+        <label for="">Email</label>
+        <input type="text" name="email" pInputText [(ngModel)]="cliente.email">
+    </div>
+    <div>
+        <label for="" >Contraseña</label>
+        <input type="text" name="contraseña" pInputText [(ngModel)]="cliente.contrasenia">
+    </div>
+    <div>
+        <label for="" >Pais</label>
+        <input type="text" name="pais" pInputText [(ngModel)]="cliente.pais">
+    </div>
+    <div>
+        <label for="" >Estado</label>
+        <input type="text" name="estado" pInputText [(ngModel)]="cliente.estado">
+    </div>
+    <div>
+        <label for="" >Ciudad</label>
+        <input type="text" name="ciudad" pInputText [(ngModel)]="cliente.ciudad">
+    </div>
+        <div>
+            <label for="" >CP</label>
+            <input type="text" name="cp" pInputText [(ngModel)]="cliente.CP">
+        </div>
+        <div>
+            <label for="" >Colonia</label>
+            <input type="text" name="colonia" pInputText [(ngModel)]="cliente.colonia">
+        </div>
+        <div>
+            <label for="" >Calle</label>
+            <input type="text" name="calle" pInputText [(ngModel)]="cliente.calle">
+        </div>
+        <div>
+            <label for="" >Numero</label>
+            <input type="text" name="numero" pInputText [(ngModel)]="cliente.numero">
+        </div>
+ 
+
+    <button pButton type="submit" class="p-button-raised  p-button-success" >Editar</button>
+
+</form>
+
